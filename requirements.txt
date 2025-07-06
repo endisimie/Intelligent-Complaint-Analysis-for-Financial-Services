@@ -1,0 +1,14 @@
+pandas
+nltk
+scikit-learn
+fastapi
+uvicorn
+matplotlib
+seaborn
+joblib
+torch
+langchain
+sentence-transformers 
+chromadb 
+tqdm
+streamlit
