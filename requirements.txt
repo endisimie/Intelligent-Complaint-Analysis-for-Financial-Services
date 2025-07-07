@@ -12,3 +12,4 @@ sentence-transformers
 chromadb 
 tqdm
 streamlit
+langchain_huggingface
