@@ -15,24 +15,6 @@ This project implements an intelligent pipeline to analyze, clean, embed, and re
 
 ---
 
-## 📁 Project Structure
-
-├── data/
-│ ├── complaints.csv
-│ ├── processed/
-│ │ └── filtered_complaints.csv
-│ └── vector_store/
-├── notebooks/
-│ └── task1_eda_preprocessing.ipynb
-├── src/
-│ ├── task2_embedding_indexing.py
-│ └── ...
-├── outputs/
-│ └── *.png (EDA plots)
-├── requirements.txt
-└── README.md
-
-
 ---
 
 ## 🛠️ Tasks Overview
