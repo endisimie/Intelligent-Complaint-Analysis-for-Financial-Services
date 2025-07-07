@@ -57,17 +57,34 @@ This project implements an intelligent pipeline to analyze, clean, embed, and re
 
 - Store vectors and metadata (complaint ID, product type) in a ChromaDB vector store.
 
-📄 Script: `src/task2_embedding_indexing.py`  
+📄 Script: `notebooks/RAG_pipeline.ipynb`  
 📦 Output: `data/vector_store/`
 
 ---
 
-### ✅ Task 3 (Optional): RAG & Search (Upcoming)
-- Retrieve relevant chunks for a user query using semantic similarity.
-- Build interface with FastAPI or Gradio (optional).
+### 🧠 Task 3: RAG Inference (CPU Compatible)
 
-📄 Script: `src/task3_rag_query.py` *(optional)*  
+- Use retrieved complaint chunks as context
+- Generate answers using `google/flan-t5-base` (lightweight and CPU-friendly)
+- Format queries and responses appropriately
+
+📄 Script: `notebooks/vector_store_indexing.ipynb`  
 📦 Output: relevant top-k chunks, source metadata
+
+
+### 💬 Task 4: Streamlit Chat Interface
+
+- Web interface for interacting with the RAG system
+- Ask financial questions and receive AI-generated answers
+- Show source complaint chunks below answers for transparency
+- Adjustable `top_k` chunk retrieval via sidebar
+- "Clear" button to reset session
+
+📄 Script: `src/app.py`
+
+🖥️ How to run:
+```bash
+streamlit run app.py
 
 ---
 
