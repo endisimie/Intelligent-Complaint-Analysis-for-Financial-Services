@@ -15,7 +15,6 @@ This project implements an intelligent pipeline to analyze, clean, embed, and re
 
 ---
 
----
 
 ## 🛠️ Tasks Overview
 
@@ -64,11 +63,7 @@ This project implements an intelligent pipeline to analyze, clean, embed, and re
 
 📄 Script: `src/app.py`
 
-🖥️ How to run:
-```bash
-streamlit run app.py
 
----
 
 ## 🧪 Environment Setup
 
@@ -77,3 +72,9 @@ streamlit run app.py
 Install required packages:
 ```bash
 pip install -r requirements.txt
+
+🖥️ How to run:
+```bash
+streamlit run app.py
+
+---
